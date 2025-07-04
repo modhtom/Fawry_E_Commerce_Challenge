@@ -1,4 +1,8 @@
+package services;
+
 import java.util.List;
+import interfaces.Shippable;
+import roles.Customer;
 
 public class CheckoutService {
     public static void checkout(Customer customer, Cart cart) {

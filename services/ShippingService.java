@@ -1,5 +1,8 @@
+package services;
+
 import java.util.ArrayList;
 import java.util.List;
+import interfaces.Shippable;
 
 public class ShippingService {
     final static double costPerKg = 22.3;

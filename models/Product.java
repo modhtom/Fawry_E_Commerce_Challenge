@@ -1,6 +1,8 @@
+package models;
+
 import java.util.Date;
 
-abstract class Product {
+public abstract class Product {
     protected String name;
     protected double price;
     protected int quantity;

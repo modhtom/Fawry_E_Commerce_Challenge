@@ -1,5 +1,12 @@
 import java.util.Date;
-
+import models.Product;
+import models.Cheese;
+import models.Biscuits;
+import models.TV;
+import models.MobileScratchCard;
+import roles.Customer;
+import services.Cart;
+import services.CheckoutService;
 public class FawryECommerce {
     public static void main(String[] args) {
         Product cheese = new Cheese("Cheese 400g", 50, 29, new Date(System.currentTimeMillis() + (14L * 24 * 60 * 60 * 1000)), 0.2);

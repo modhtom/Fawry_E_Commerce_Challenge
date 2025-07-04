@@ -1,5 +1,9 @@
+package services;
+
 import java.util.ArrayList;
 import java.util.List;
+import models.Product;
+import interfaces.Shippable;
 
 class CartItem {
     Product product;
